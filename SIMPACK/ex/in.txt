@@ -1,0 +1,22 @@
+teste       ! Problem name
+entrada.csv ! File with values
+0           ! Column position of x (lat/long)
+1           ! Column position of y (lat/long)
+2           ! Column position of z (INCERTEZA)
+3           ! Column position of u (Superelevação)
+5		    ! Column position of Delta-y l (ALLr)
+6		    ! Column position of Delta-y r (ALRr)
+7		    ! Column position of Delta-z l (NLE5r)
+8		    ! Column position of Delta-z r (NLD5r)
+0.5		    ! Path size of s (Localizacao)
+1.0         ! Length scaling factor for x, y, z (meters)
+1000.0      ! Length scaling factor for u (millimeters)
+0       	! Superelevation about Track centerline -CHECK
+1.506   	! Superelevation reference baselength (meters) -CHECK
+1       	! Increment for data reduction
+1.0    		! Length scaling factor for s (meters)
+1.0    		! Length scaling factor for Delta-y left (meters)
+1.0    		! Length scaling factor for Delta-y right (meters)
+1.0    		! Length scaling factor for Delta-z left (meters)
+1.0    		! Length scaling factor for Delta-z right (meters)
+1      		! Increment for data reduction
