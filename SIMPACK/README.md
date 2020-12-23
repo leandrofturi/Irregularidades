@@ -17,7 +17,7 @@ Para gerar os arquivos
 ## Arquivo contendo os parâmetros de entrada (Parameters file)
 ```c
 char[]        ! Problem name
-char[]        ! File with values
+char[]        ! File with values (CSV, doubles separated by dot and columns separated by commas)
 int           ! Column position of x (lat/long)
 int           ! Column position of y (lat/long)
 int           ! Column position of z (INCERTEZA)
