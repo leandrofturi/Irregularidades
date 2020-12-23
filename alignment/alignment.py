@@ -1,14 +1,12 @@
-# raio@lfurlam:/mnt/c/Users/leand$ source env/bin/activate
-# PATH /mnt/c/Users/leand/env/bin/python3
 import pandas as pd
 import numpy as np
 from scipy.interpolate import lagrange
 
-path = "ex/entrada.csv"
+path = "alignment/ex/entrada.csv"
 df = pd.read_csv(path)
 
 X = df['x'].values
-Y = df['s']
+Y = df['s'].values
 h = 0.5
 
 dt = align(X, Y, h)
