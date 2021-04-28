@@ -1,0 +1,13 @@
+ADMIN
+	admin
+	LdDEcE8kp2nXKZb8eRh8
+
+USER
+	labuser
+	Labtdf2020
+
+HOST
+	vagao.c0y5xbacpylp.sa-east-1.rds.amazonaws.com
+
+PORT
+	3306

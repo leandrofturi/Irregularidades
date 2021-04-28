@@ -1,0 +1,37 @@
+MySQL database control
+
+
+class: MySQLpy
+
+- construtor (inicialização da classe)
+    db = MySQLpy('vagao')
+
+
+- testar a conexão
+    db.test_connection()
+
+
+- mostrar databases
+    db.show_databases()
+
+
+- mostrar tabelas
+    tb = db.show_tables()
+
+
+- seleconar a tabela (usado para construir uma query via pacote sqlalchemy)
+    tb = db.table('EFVM')
+
+
+- leitura dos dados (execução da sql query)
+   df = db.read_sql(query) (retorno como um DataFrame)
+   df = db.read_sql(query, 1) (retorno como um Iterator - bom para MUITOS dados)
+
+
+- carregamento de uma tabelas (se a tabela existe, ocorrerá append, se não existe será criada)
+    no caso do append, não pode ocorrer adição de colunas
+    db.xlsx_2mysql("nome_tabela_no_mysql", "caminho_para_arquivo_excel")
+
+
+- execução de uma query (casos específicos, como DROP TABLE, CREATE USER, ...)
+    db.execute(query)

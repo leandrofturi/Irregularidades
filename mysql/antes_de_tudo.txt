@@ -1,0 +1,18 @@
+Antes de tudo...
+- Instalação dos pacotes necessários:
+    os
+    time
+    pandas
+    sqlalchemy (pip3 install SQLAlchemy)
+    dotenv (pip3 install python-dotenv)
+
+- Instalação MySQLdb para Python 3
+    https://github.com/PyMySQL/mysqlclient-python
+
+- arquivo .env (caso esteja rodando localmente)
+    MYSQL_USERNAME='username'
+    MYSQL_PASSWORD='password'
+    MYSQL_HOST='IP address'
+    MYSQL_PORT='3306'
+
+- arquivo MySQLpy.py (na pasta utils)
